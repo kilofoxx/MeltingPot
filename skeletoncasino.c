@@ -1,5 +1,8 @@
-// Arup Guha
-// Edited Version of a previous program
+// K. Lee
+// skeletoncasino.c
+// 05/2015
+// University of Central Florida - COP3223
+// Edited Version of a previous program written by Arup Guha
 // 10/30/2013 - A skeleton for the 2013 Fall Version of the Casino Assignment
 
 #include <stdio.h>
