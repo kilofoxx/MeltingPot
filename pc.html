@@ -1,0 +1,108 @@
+﻿<!doctype html>
+	<head>
+<! -- 	Assignment 3: millennium computers
+		Karl Lee
+		Valencia College
+		30 July 2012
+-- >
+
+<title>Millennium Computers</title>
+<link rel="styleshet" type="text/css" href="styles.css" />
+
+	</head>
+
+	<body>
+	
+<style type="text/css">
+h2 {
+	color: purple;
+}
+</style> 
+
+<! -- Form Box that inputs name and email -->
+
+<table align="center" width="800" height="550" border="5" cellspacing="3" cellpading="4">
+	<tr>
+		<td bgcolor="white">
+<center><h2>MILLENNIUM COMPUTERS</h2></center>
+
+		<table align="center" width="750" height="450" border="5">
+			<tr>
+				<td bgcolor="#E3E3FA" valign="top">
+<hr>
+<b>Please Enter Your Contact Information</b>
+<br />
+	<label for="firstname">First Name:	<section><input size="50" id="firstname" type="text" name=" "></label><br />
+	<label for="lastname">Last Name:  	<section><input size="50"id="lastname" type="text" name=" "></label><br />
+	<label for="address1">Address: 	  	<section><input size="50" id="address1" type="text" name="address1"></label><br />
+	<label for="address2">         		<section><input size="50" id="address2" type="text" name="address2"></label><br />
+	<label for="state">State:			<section><input size="15" id="state" type="text" name="state"></lable><br />
+	<label for="zipcode">Postal Zip Code:<section><input size="10" id="zip" type="text" name="zip"></label><br />
+	<label for="phone">Phone: 		  	<section><input size="11" id="phone" type="text" name="phone"></label><br />
+	<label for="email">Email: 		  	<section><input size="50" id="email" type="text" name="email"></label><br />
+<hr>
+<b>Enter Specific Requests or Comments:</b><br />
+<textarea name="comment" rows="5" cols="50" />
+</textarea><br />
+<form class="box" action="mailto:rreynolds@valenciacollege.edu" method="post">
+Submit Order:<input type="submit" value="Boom Shakalakaa !!!" /><br />
+Reset Form:<input type="reset" value="RESET" /><br />
+Contact Me:<input type="submit" value="contact" /><br />
+</form>
+				</td>
+				<td bgcolor="#E3E3FA" valign="top">
+				
+<! -- Custom Computer Radio Selections -- >
+
+<hr>
+<b>Please use the selections below to customize your computer.</b>
+		<table>
+					<tr>
+						<td bgcolor="#E3E3FA" valign="top">				
+<section>
+<b><u><h5>Processor Speed</h5></u></b>
+	<input type="radio" name="group1" value="Standard" /><b>2.4 Ghz</b>
+	<input type="radio" name="group1" value="Performance" /><b>3.2 Ghz</b>
+	<input type="radio" name="group1" checked value="Max Performance" /><b>4.0 Ghz</b>
+</section>			
+<section>
+	<aside>
+	<p><b><u><h5>Form Factor</h5></u></b></p>
+	<input type="radio" name="group2" unchecked /><b>ATX</b>
+	<input type="radio" name="group2" checked /><b>Miro ATX</b>
+	</aside>
+</section>
+<section>
+	<aside>
+	<p><b><u><h5>RAM Memory</h5></u></b></p>
+	<input type="radio" name="group3" unchecked /><b>1 GB</b>
+	<input type="radio" name="group3" unchecked /><b>2 GB</b>
+	<input type="radio" name="group3" unchecked /><b>4 GB</b>
+	<input type="radio" name="group3" checked /><b>8 GB</b>
+	</aside>
+</section>
+<section>
+	<aside>
+	<p><b><u><h5>Select Hard Drive Storage Size</h5></u></b></p>
+	<input type="radio" name="group4" unchecked /><b>240 GB</b>
+	<input type="radio" name="group4" unchecked /><b>500 GB</b>
+	<input type="radio" name="group4" unchecked /><b>750 GB</b>
+	<input type="radio" name="group4" checked /><b>1 TB</b>
+	</aside>
+</section>
+<section>
+	<aside>
+	<p><b><u><h5>Please check all that apply</h5></u></b></p>
+	<input type="checkbox" unchecked /><b>DVD SuperDrive</b><br />
+	<input type="checkbox" unchecked /><b>LAN Adapter</b><br />
+	<input type="checkbox" unchecked /><b>SD Card Reader</b><br />
+	</aside>
+</section>
+	
+	</form>
+
+</form>
+</table>
+
+	</body>
+</html>
