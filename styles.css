@@ -1,0 +1,23 @@
+/* -- Style Page for Curriculum Class Work Build -- */
+
+/* -- Body Styles -- */
+
+
+body {
+	background: ;
+	font-family: Ariel, sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* -- Table Margins -- */
+
+table {
+	margin-top: 2cm;
+}
+
+/* -- Box Styles -- */
+
+.box {
+	align: 10px;
+}
